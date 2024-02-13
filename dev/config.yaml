@@ -1,0 +1,15 @@
+server:
+  port: 8080
+db:
+  # mongouri: mongodb://admin:admin@localhost:27017/crud-practice?ssl=false&authSource=admin
+  dbhost: localhost
+  dbname: library-CRUD
+  dbport: 27017
+  dbuser: admin
+  dbpass: admin
+  library_db: library-project
+  book_collection: books
+  auth_source: admin
+
+
+
